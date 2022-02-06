@@ -4,16 +4,11 @@ import java.util.Scanner;
 
 public class JavaStart_2_1_1 {
 
-	/*
-	 * 1) Написать программу которая считывает 5-и значное число с клавиатуры и
-	 * выводит цифры из которого оно состоит. Например : Считывается число 54698
-	 */
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int x;
 
-		System.out.println("5-и значное число - ");
+		System.out.println("5-digit number - ");
 		x = scan.nextInt();
 
 		System.out.println(x/10000);
