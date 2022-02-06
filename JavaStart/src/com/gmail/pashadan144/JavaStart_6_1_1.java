@@ -4,10 +4,6 @@ public class JavaStart_6_1_1 {
 
 	public static void main(String[] args) {
 
-		/*
-		 * 1) Напишите метод который вернет максимальное число из массива целых чисел.
-		 */
-
 		int[] array = { 1, 234, 1243, 4, 23, 34235, 32, 21, 99 };
 		System.out.println(getMax(array));
 		

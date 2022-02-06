@@ -4,29 +4,21 @@ import java.util.Scanner;
 
 public class JavaStart_3_2_3 {
 
-	/*
-	 * 3) Проверить, является ли четырехзначное число счастливым билетом. Дано
-	 * четырехзначное число. Проверить, является ли оно «счастливым билетом».
-	 * Примечание: счастливым билетом называется число, в котором - при четном
-	 * количестве цифр в числе сумма цифр его левой половины равна сумме цифр его
-	 * правой половины. Например, рассмотрим число 1322. Его левая половина равна
-	 * 13, а правая – 22, и оно является счастливым билетом (т. к. 1 + 3 = 2 + 2)
-	 */
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Четырехзначное число - ");
+		System.out.println("Four digit number -");
 		int x = sc.nextInt();
 
 		if (x >= 1000 && x <= 9999) {
 			if (x / 1000 + x % 1000 / 100 == x % 100 / 10 + x % 10) {
-				System.out.println("Это счастливый билет");
+				System.out.println("It's a lucky ticket");
 			} else
-				System.out.println("Это не счастливый билет");
+				System.out.println("This is not a lucky ticket");
 
 		} else {
-			System.out.println("Это не четырехзначное число");
+			System.out.println("It's not a four digit number");
 		}
 
 	}

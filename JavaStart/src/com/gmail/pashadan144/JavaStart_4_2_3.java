@@ -4,14 +4,9 @@ import java.util.Scanner;
 
 public class JavaStart_4_2_3 {
 
-	/*
-	 * 3) Выведите на экран «песочные часы» максимальная ширина которых считывается
-	 * с клавиатуры (число нечетное). В примере ширина равна 5.
-	 */
-
 	public static void main(String[] args) {
 
-		System.out.print("Максимальная ширина (число нечетное) - ");
+		System.out.print("Maximum width (odd number) - ");
 		Scanner scan = new Scanner(System.in);
 		int x = 0, c = 0, n = scan.nextInt();
 
@@ -30,16 +25,16 @@ public class JavaStart_4_2_3 {
 
 				System.out.println("");
 
-				if (i < n / 2) { /* Первая часть часов */
+				if (i < n / 2) { 
 					x += 1;
-				} else { /* Вторая часть часов */
+				} else { 
 					x -= 1;
 				}
 
 			}
 
 		} else {
-			System.out.println("Число должно быть нечетным!!!");
+			System.out.println("Number must be odd!!!");
 		}
 	}
 }

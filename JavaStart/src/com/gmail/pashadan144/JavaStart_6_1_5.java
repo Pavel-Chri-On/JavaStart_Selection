@@ -3,9 +3,6 @@ package com.gmail.pashadan144;
 public class JavaStart_6_1_5 {
 	public static void main(String[] args) {
 
-		/*
-		 * 5) Напишите метод который вернет количество слов в строке текста.
-		 */
 		
 		String str = " Hello world! How are you? ";
 		System.out.println(countWords(str));

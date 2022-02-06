@@ -4,16 +4,10 @@ import java.util.Scanner;
 
 public class JavaStart_4_1_2 {
 
-	/*
-	 * 2) Вычислить с помощью цикла факториал числа - n введенного с клавиатуры
-	 * (4<n<16). Факториал числа это произведение всех чисел от этого числа до 1.
-	 * Например 5!=5*4*3*2*1=120
-	 */
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Число n - ");
+		System.out.println("Number n -");
 		int n = scan.nextInt();
 		int factorial = n;
 

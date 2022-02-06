@@ -4,19 +4,14 @@ import java.util.Scanner;
 
 public class JavaStart_4_1_4 {
 
-	/*
-	 * 4) Выведите на экран прямоугольник из *. Причем высота и ширина
-	 * прямоугольника вводятся с клавиатуры. Например ниже представлен прямоугольник
-	 * с высотой 4 и шириной 5.
-	 */
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Высота - ");
+		System.out.println("Height - ");
 		int x = scan.nextInt();
 		
-		System.out.println("Ширина - ");
+		System.out.println("Width - ");
 		int y = scan.nextInt();
 		
 		for (int i = 0; i < x; i++) {

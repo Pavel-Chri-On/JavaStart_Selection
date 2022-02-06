@@ -5,17 +5,12 @@ import java.util.Scanner;
 public class JavaStart_6_1_3 {
 	public static void main(String[] args) {
 
-		/*
-		 * 3) Реализуйте метод рисующий на экране прямоугольник из звездочек «*» — его
-		 * параметрами будут целые числа которые описывают длину и ширину такого
-		 * прямоугольника.
-		 */
 
-		System.out.print("Ширина - ");
+		System.out.print("Width - ");
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 
-		System.out.print("Длина - ");
+		System.out.print("Length - ");
 		Scanner scan = new Scanner(System.in);
 		int b = scan.nextInt();
 

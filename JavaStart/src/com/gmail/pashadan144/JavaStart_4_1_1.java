@@ -4,17 +4,12 @@ import java.util.Scanner;
 
 public class JavaStart_4_1_1 {
 
-	/*
-	 * 1) С помощью циклов нарисовать «обои». Причем количество полос должно
-	 * вводиться с клавиатуры. В примере 7 полос.
-	 */
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
 		int x;
 
-		System.out.println("Количество полос - ");
+		System.out.println("Number of lanes -");
 		x = scan.nextInt();
 
 		for (int i = 0; i < 5; i++) {
